@@ -1,0 +1,163 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui;
+}
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.header
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.first-section{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+}
+.image{
+    width: 600px;
+    height: 200px;
+}
+
+.hero-content{
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 600px;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.hero
+button{
+    padding: 8px;
+    color: white;
+    width: 100px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 8px;
+    border-style: hidden;
+}
+
+.image-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-color: #3882f6;
+    
+}
+.second-section{
+    padding: 0px 400px;
+    display: flex;
+    flex-direction: column; 
+    height: 500px;
+}
+.second-section
+p{
+    font-size: 36px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.four-image{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.four-image
+p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.four-image
+div{
+    text-align: center;
+}
+
+.third-section{
+    background-color: #e5e7eb;
+    padding: 0px 400px;
+    display: flex;
+    flex-direction: column; 
+    height: 500px;
+    justify-content: center;
+}
+.quotes,
+.author{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+.author{
+    font-weight: 700;
+    margin: 0;
+    font-style: normal;
+    margin-left: auto;
+}
+
+.fourth-section{
+    margin: 100px 300px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding: 20px 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700; 
+}
+.fourth-section
+button{
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 100%;
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;  
+    color: white;
+    font-size: 20px;
+}
