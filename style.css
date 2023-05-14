@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: system-ui;
+    margin: 0;
 }
 .header{
     background-color: #1f2937;
@@ -13,12 +14,15 @@ body{
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    min-width: 200px
 }
 ul{
     list-style-type: none;
     display: flex;
     align-items: center;
     gap: 16px;
+    min-width: 400px;
+
 }
 .header
 a{
@@ -40,7 +44,8 @@ a{
 .hero{
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    flex: 1 1 400px;
+    margin-bottom: 40px;
     align-items: center;
 }
 .image{
@@ -52,6 +57,7 @@ a{
     color: #e5e7eb;
     font-size: 18px;
     width: 600px;
+    min-width: 400px;
 }
 
 .hero-text{
@@ -78,10 +84,11 @@ button{
     
 }
 .second-section{
+    flex: 1 1 500px;
     padding: 0px 400px;
+    min-width: 500px;
     display: flex;
     flex-direction: column; 
-    height: 500px;
 }
 .second-section
 p{
@@ -91,8 +98,10 @@ p{
 }
 
 .four-image{
+    flex: 1;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .four-image
@@ -103,14 +112,16 @@ p{
 .four-image
 div{
     text-align: center;
+    width: 200px;
+
 }
 
 .third-section{
+    flex: 1 1 500px;
     background-color: #e5e7eb;
     padding: 0px 400px;
     display: flex;
     flex-direction: column; 
-    height: 500px;
     justify-content: center;
 }
 .quotes,
@@ -119,6 +130,7 @@ div{
     color: #1f2937;
     font-style: italic;
     font-weight: 100;
+    min-width: 600px
 }
 .author{
     font-weight: 700;
@@ -134,6 +146,7 @@ div{
     padding: 20px 100px;
     color: white;
     display: flex;
+    min-width: 400px;
     justify-content: space-between;
 }
 
